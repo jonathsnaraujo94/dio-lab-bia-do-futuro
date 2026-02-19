@@ -29,17 +29,17 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
@@ -53,10 +53,15 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O agente respondeu corretamente perguntas sobre saldo e gastos.
+- Manteve o tom amigável e educativo em todas as interações.
+- Evitou responder perguntas fora do escopo financeiro.
+- Não inventou informações quando os dados não estavam disponíveis.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Incluir mais categorias de gastos para análises mais detalhadas.
+- Adicionar mais produtos financeiros para respostas mais completas.
+- Melhorar a personalização com histórico de interações do usuário.
 
 ---
 
